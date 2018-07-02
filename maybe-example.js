@@ -1,3 +1,7 @@
+/**
+ * In this example we need to find oldest Man whenever is has or has not name
+ */
+
 const R = require('ramda')
 const Maybe = require('maybe')
 
