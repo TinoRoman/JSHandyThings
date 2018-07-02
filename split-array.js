@@ -1,3 +1,7 @@
+/**
+ * Split array into sub arrays, for example splitArray( [1, 2, 3, 4], 2 ) => [ [1, 2], [3, 4] ]
+ */
+
 const getLast = (arr) => arr[arr.length - 1]
 
 const splitArrayF = (n, arr) => 
