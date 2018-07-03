@@ -29,7 +29,7 @@ const getOldest = ( userA, userB ) => userA.age > userB.age
 
 const getOldestMan = ( users ) => users
   .map( toMaybeUser )
-  .filter( R.both( manWithName ) )
+  .filter( manWithName )
   .reduce( getOldest )
 
 const users = [
