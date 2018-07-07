@@ -1,5 +1,5 @@
 /**
- * In this example we need to find oldest man whenever is has or has not name
+ * In this example we need to find oldest man whenever it has or has not a name
  */
 
 const R = require('ramda')
